@@ -1,0 +1,50 @@
+* {
+	border-box: box-sizing;
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: arial,calibri, helvetica;
+}
+#checkerboard {
+	width: 800px;
+	height: 800px;
+	margin: auto;
+	margin-top: 30px;
+}
+#player-turn {
+	font-size: 22px;
+	text-align: center;
+	margin-top: 10px;
+}
+.square {
+	width: 90px;
+	height: 90px;
+	padding: 5px;
+	float: left;
+	box-shadow: 0 0px 0px 1px #000;
+	background-color: #fff;
+}
+.square-allowed {
+	background-color: #424242;
+}
+.piece {
+	box-shadow: 0 0px 0px 3px #000;
+	width: inherit;
+	height: inherit;
+	border-radius: 50%;
+	background-color: #ccc;
+	cursor: pointer;
+}
+.piece.queen {
+	box-shadow: 0 0px 0px 3px #ff0;
+}
+.player-one-piece {
+	background-color: #6aacdc;
+}
+.player-two-piece {
+	background-color: #cc6a69;
+}
+.square-allowed.selected {
+	background-color: #666;
+}
